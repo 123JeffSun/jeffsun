@@ -1,0 +1,10 @@
+./tags:H2C_ddr_size	libxdma.c	/^ void H2C_ddr_size(struct xdma_dev *xdev, u32 value)$/;"	f
+匹配到二进制文件 ./xdma.o
+./libxdma.h:void H2C_ddr_size(struct xdma_dev *xdev, u32 value);
+匹配到二进制文件 ./libxdma.o
+匹配到二进制文件 ./.cdev_sgdma.c.swp
+./cdev_sgdma.c:		H2C_ddr_size(xdev,(u32)count);
+匹配到二进制文件 ./cdev_sgdma.o
+匹配到二进制文件 ./xdma.ko
+./libxdma.c: void H2C_ddr_size(struct xdma_dev *xdev, u32 value)
+./libxdma.c:          printk("H2C_ddr_size ===========================reg->h2c_ddr_size = 0x%x", v);

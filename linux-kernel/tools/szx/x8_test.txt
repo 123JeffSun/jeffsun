@@ -1,0 +1,46 @@
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools/szx$ dd if=/dev/urandom of=32M_random.bin bs=16M count=2
+记录了2+0 的读入
+记录了2+0 的写出
+33554432 bytes (34 MB, 32 MiB) copied, 0.21294 s, 158 MB/s
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools/szx$ ll
+总用量 32836
+drwxr-xr-x 2 sunzhx01 sunzhx01     4096 8月   9 14:32 ./
+drwxr-xr-x 3 sunzhx01 sunzhx01     4096 7月  30 16:37 ../
+-rw-rw-r-- 1 sunzhx01 sunzhx01 33554432 8月   9 14:32 32M_random.bin
+-rw-r--r-- 1 sunzhx01 sunzhx01    50771 5月  24 17:01 pcie_x8_rw.txt
+-rw-r--r-- 1 sunzhx01 sunzhx01     5303 8月   9 14:30 reg_rw.c
+
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools/szx$ cd ..
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_0 -s 33554432 -f ./szx/32M_random.bin 
+/dev/xdma0_h2c_0 ** Average BW = 33554432, 214.223450
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_0 -s 33554432 -f ./szx/0809_32M_random.bin
+/dev/xdma0_c2h_0 ** Average BW = 33554432, 190.517273
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/32M_random.bin ./szx/0809_32M_random.bin 
+二进制文件 ./szx/32M_random.bin 和 ./szx/0809_32M_random.bin 不同
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_1 -s 33554432 -f ./szx/32M_random.bin 
+/dev/xdma0_h2c_1 ** Average BW = 33554432, 169.657166
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_0 -s 33554432 -f ./szx/0809_1_32M_random.bin
+/dev/xdma0_c2h_0 ** Average BW = 33554432, 144.052597
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/32M_random.bin ./szx/0809_1_32M_random.bin 
+二进制文件 ./szx/32M_random.bin 和 ./szx/0809_1_32M_random.bin 不同
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_2 -s 33554432 -f ./szx/32M_random.bin 
+/dev/xdma0_h2c_2 ** Average BW = 33554432, 183.328995
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_2 -s 33554432 -f ./szx/0809_2_32M_random.bin
+/dev/xdma0_c2h_2 ** Average BW = 33554432, 161.400742
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/32M_random.bin ./szx/0809_2_32M_random.bin 
+二进制文件 ./szx/32M_random.bin 和 ./szx/0809_2_32M_random.bin 不同
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_3 -s 33554432 -f ./szx/32M_random.bin 
+/dev/xdma0_h2c_3 ** Average BW = 33554432, 177.875549
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_2 -s 33554432 -f ./szx/0809_3_32M_random.bin
+/dev/xdma0_c2h_2 ** Average BW = 33554432, 161.130768
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/32M_random.bin ./szx/0809_3_32M_random.bin 
+二进制文件 ./szx/32M_random.bin 和 ./szx/0809_3_32M_random.bin 不同
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+
+
+ dd if=/dev/urandom of=8k_random.bin bs=8K count=1
+
+sudo ./dma_to_device -d /dev/xdma0_h2c_0 -s 8192 -f ./szx/8k_random.bin
+sudo ./dma_from_device  -d /dev/xdma0_c2h_0 -s 8192 -f ./szx/x8_read_0_8k_random.bin
+
+dd if=/dev/urandom of=128M_random.bin bs=16M count=5

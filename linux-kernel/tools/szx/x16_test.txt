@@ -1,0 +1,55 @@
+
+
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_0 -s 33554432 -f ./szx/32M_random.bin
+[sudo] sunzhx01 的密码： 
+/dev/xdma0_h2c_0 ** Average BW = 33554432, 217.695328
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_0 -s 33554432 -f ./szx/0809_x16_32M_random.bin
+/dev/xdma0_c2h_0 ** Average BW = 33554432, 193.278320
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/0809_32M_random.bin ./szx/0809_x16_32M_random.bin
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_1 -s 33554432 -f ./szx/32M_random.bin
+/dev/xdma0_h2c_1 ** Average BW = 33554432, 216.984009
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_1 -s 33554432 -f ./szx/0809_x16_1_32M_random.bin
+/dev/xdma0_c2h_1 ** Average BW = 33554432, 211.792068
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/0809_32M_random.bin ./szx/0809_x16_1_32M_random.bin
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_3 -s 33554432 -f ./szx/32M_random.bin
+/dev/xdma0_h2c_3 ** Average BW = 33554432, 216.059937
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_3 -s 33554432 -f ./szx/0809_x16_3_32M_random.bin
+/dev/xdma0_c2h_3 ** Average BW = 33554432, 190.321777
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/0809_32M_random.bin ./szx/0809_x16_3_32M_random.bin
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_2 -s 33554432 -f ./szx/32M_random.bin
+/dev/xdma0_h2c_2 ** Average BW = 33554432, 213.566711
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_2 -s 33554432 -f ./szx/0809_x16_2_32M_random.bin
+/dev/xdma0_c2h_2 ** Average BW = 33554432, 200.252686
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/0809_32M_random.bin ./szx/0809_x16_2_32M_random.bin
+
+
+
+
+
+sudo ./dma_to_device -d /dev/xdma0_h2c_0 -s 1024 -f ./szx/1k_random.bin
+
+sudo ./dma_from_device  -d /dev/xdma0_c2h_0 -s 1024 -f ./szx/x16_read_0_1k_random.bin
+
+
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_0 -s 2147483648 -f ./szx/2G_random.bin 
+[sudo] sunzhx01 的密码： 
+/dev/xdma0_h2c_0 ** Average BW = 2147483648, 5675.047363
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_0 -s 2147483648 -f ./szx/2G_read_0_random.bin
+/dev/xdma0_c2h_0 ** Average BW = 2147483648, 4382.237793
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/2G_random.bin ./szx/2G_read_0_random.bin
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_1 -s 2147483648 -f ./szx/2G_random.bin 
+/dev/xdma0_h2c_1 ** Average BW = 2147483648, 2916.734375
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_1 -s 2147483648 -f ./szx/2G_read_1_random.bin
+/dev/xdma0_c2h_1 ** Average BW = 2147483648, 4953.017578
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/2G_random.bin ./szx/2G_read_1_random.bin
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_2 -s 2147483648 -f ./szx/2G_random.bin 
+/dev/xdma0_h2c_2 ** Average BW = 2147483648, 3272.035400
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_2 -s 2147483648 -f ./szx/2G_read_2_random.bin
+/dev/xdma0_c2h_2 ** Average BW = 2147483648, 8978.158203
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/2G_random.bin ./szx/2G_read_2_random.bin
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -d /dev/xdma0_h2c_3 -s 2147483648 -f ./szx/2G_random.bin 
+/dev/xdma0_h2c_3 ** Average BW = 2147483648, 2842.708740
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device  -d /dev/xdma0_c2h_3 -s 2147483648 -f ./szx/2G_read_3_random.bin
+/dev/xdma0_c2h_3 ** Average BW = 2147483648, 10226.061523
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ diff ./szx/2G_random.bin ./szx/2G_read_3_random.bin
+

@@ -1,0 +1,715 @@
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x400 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x400, offset 0x0, count 10
+host buffer 0x1400 = 0x557234301000
+#0: CLOCK_MONOTONIC 0.000085495 sec. write 1024 bytes
+#1: CLOCK_MONOTONIC 0.000056749 sec. write 1024 bytes
+#2: CLOCK_MONOTONIC 0.000026469 sec. write 1024 bytes
+#3: CLOCK_MONOTONIC 0.000024163 sec. write 1024 bytes
+#4: CLOCK_MONOTONIC 0.000024781 sec. write 1024 bytes
+#5: CLOCK_MONOTONIC 0.000021935 sec. write 1024 bytes
+#6: CLOCK_MONOTONIC 0.000022507 sec. write 1024 bytes
+#7: CLOCK_MONOTONIC 0.000021932 sec. write 1024 bytes
+#8: CLOCK_MONOTONIC 0.000021955 sec. write 1024 bytes
+#9: CLOCK_MONOTONIC 0.000021213 sec. write 1024 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 327199 nsec, avg_time = 32719.900391, size = 1024, BW = 31.295938 
+/dev/xdma0_h2c_0 ** Average BW = 1024, 31.295938
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x800 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x800, offset 0x0, count 10
+host buffer 0x1800 = 0x55b4e6717000
+#0: CLOCK_MONOTONIC 0.000086081 sec. write 2048 bytes
+#1: CLOCK_MONOTONIC 0.000026502 sec. write 2048 bytes
+#2: CLOCK_MONOTONIC 0.000024267 sec. write 2048 bytes
+#3: CLOCK_MONOTONIC 0.000023021 sec. write 2048 bytes
+#4: CLOCK_MONOTONIC 0.000023569 sec. write 2048 bytes
+#5: CLOCK_MONOTONIC 0.000022844 sec. write 2048 bytes
+#6: CLOCK_MONOTONIC 0.000022918 sec. write 2048 bytes
+#7: CLOCK_MONOTONIC 0.000022413 sec. write 2048 bytes
+#8: CLOCK_MONOTONIC 0.000022509 sec. write 2048 bytes
+#9: CLOCK_MONOTONIC 0.000021314 sec. write 2048 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 295438 nsec, avg_time = 29543.800781, size = 2048, BW = 69.320801 
+/dev/xdma0_h2c_0 ** Average BW = 2048, 69.320801
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x1000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x1000, offset 0x0, count 10
+host buffer 0x2000 = 0x55ab76359000
+#0: CLOCK_MONOTONIC 0.000061733 sec. write 4096 bytes
+#1: CLOCK_MONOTONIC 0.000021835 sec. write 4096 bytes
+#2: CLOCK_MONOTONIC 0.000020606 sec. write 4096 bytes
+#3: CLOCK_MONOTONIC 0.000020332 sec. write 4096 bytes
+#4: CLOCK_MONOTONIC 0.000020305 sec. write 4096 bytes
+#5: CLOCK_MONOTONIC 0.000019998 sec. write 4096 bytes
+#6: CLOCK_MONOTONIC 0.000020238 sec. write 4096 bytes
+#7: CLOCK_MONOTONIC 0.000020412 sec. write 4096 bytes
+#8: CLOCK_MONOTONIC 0.000020288 sec. write 4096 bytes
+#9: CLOCK_MONOTONIC 0.000019877 sec. write 4096 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 245624 nsec, avg_time = 24562.400391, size = 4096, BW = 166.758942 
+/dev/xdma0_h2c_0 ** Average BW = 4096, 166.758942
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x2000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x2000, offset 0x0, count 10
+host buffer 0x3000 = 0x55a70b862000
+#0: CLOCK_MONOTONIC 0.000087727 sec. write 8192 bytes
+#1: CLOCK_MONOTONIC 0.000024290 sec. write 8192 bytes
+#2: CLOCK_MONOTONIC 0.000022573 sec. write 8192 bytes
+#3: CLOCK_MONOTONIC 0.000032805 sec. write 8192 bytes
+#4: CLOCK_MONOTONIC 0.000023763 sec. write 8192 bytes
+#5: CLOCK_MONOTONIC 0.000022687 sec. write 8192 bytes
+#6: CLOCK_MONOTONIC 0.000021180 sec. write 8192 bytes
+#7: CLOCK_MONOTONIC 0.000022793 sec. write 8192 bytes
+#8: CLOCK_MONOTONIC 0.000020679 sec. write 8192 bytes
+#9: CLOCK_MONOTONIC 0.000020869 sec. write 8192 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 299366 nsec, avg_time = 29936.599609, size = 8192, BW = 273.644958 
+/dev/xdma0_h2c_0 ** Average BW = 8192, 273.644958
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x4000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x4000, offset 0x0, count 10
+host buffer 0x5000 = 0x5628d6209000
+#0: CLOCK_MONOTONIC 0.000091706 sec. write 16384 bytes
+#1: CLOCK_MONOTONIC 0.000026341 sec. write 16384 bytes
+#2: CLOCK_MONOTONIC 0.000024160 sec. write 16384 bytes
+#3: CLOCK_MONOTONIC 0.000025259 sec. write 16384 bytes
+#4: CLOCK_MONOTONIC 0.000023926 sec. write 16384 bytes
+#5: CLOCK_MONOTONIC 0.000024026 sec. write 16384 bytes
+#6: CLOCK_MONOTONIC 0.000023806 sec. write 16384 bytes
+#7: CLOCK_MONOTONIC 0.000022690 sec. write 16384 bytes
+#8: CLOCK_MONOTONIC 0.000022256 sec. write 16384 bytes
+#9: CLOCK_MONOTONIC 0.000022660 sec. write 16384 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 306830 nsec, avg_time = 30683.000000, size = 16384, BW = 533.976440 
+/dev/xdma0_h2c_0 ** Average BW = 16384, 533.976440
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x8000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x8000, offset 0x0, count 10
+host buffer 0x9000 = 0x55c5ffa00000
+#0: CLOCK_MONOTONIC 0.000102474 sec. write 32768 bytes
+#1: CLOCK_MONOTONIC 0.000029826 sec. write 32768 bytes
+#2: CLOCK_MONOTONIC 0.000026840 sec. write 32768 bytes
+#3: CLOCK_MONOTONIC 0.000026832 sec. write 32768 bytes
+#4: CLOCK_MONOTONIC 0.000026419 sec. write 32768 bytes
+#5: CLOCK_MONOTONIC 0.000026245 sec. write 32768 bytes
+#6: CLOCK_MONOTONIC 0.000026001 sec. write 32768 bytes
+#7: CLOCK_MONOTONIC 0.000037363 sec. write 32768 bytes
+#8: CLOCK_MONOTONIC 0.000026956 sec. write 32768 bytes
+#9: CLOCK_MONOTONIC 0.000026312 sec. write 32768 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 355268 nsec, avg_time = 35526.800781, size = 32768, BW = 922.345947 
+/dev/xdma0_h2c_0 ** Average BW = 32768, 922.345947
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x10000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x10000, offset 0x0, count 10
+host buffer 0x11000 = 0x560667978000
+#0: CLOCK_MONOTONIC 0.000103185 sec. write 65536 bytes
+#1: CLOCK_MONOTONIC 0.000034623 sec. write 65536 bytes
+#2: CLOCK_MONOTONIC 0.000040594 sec. write 65536 bytes
+#3: CLOCK_MONOTONIC 0.000037066 sec. write 65536 bytes
+#4: CLOCK_MONOTONIC 0.000035572 sec. write 65536 bytes
+#5: CLOCK_MONOTONIC 0.000033230 sec. write 65536 bytes
+#6: CLOCK_MONOTONIC 0.000033437 sec. write 65536 bytes
+#7: CLOCK_MONOTONIC 0.000032499 sec. write 65536 bytes
+#8: CLOCK_MONOTONIC 0.000032411 sec. write 65536 bytes
+#9: CLOCK_MONOTONIC 0.000032409 sec. write 65536 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 415026 nsec, avg_time = 41502.601562, size = 65536, BW = 1579.081787 
+/dev/xdma0_h2c_0 ** Average BW = 65536, 1579.081787
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x20000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x20000, offset 0x0, count 10
+host buffer 0x21000 = 0x7f0273b3a000
+#0: CLOCK_MONOTONIC 0.000193101 sec. write 131072 bytes
+#1: CLOCK_MONOTONIC 0.000047966 sec. write 131072 bytes
+#2: CLOCK_MONOTONIC 0.000046383 sec. write 131072 bytes
+#3: CLOCK_MONOTONIC 0.000046710 sec. write 131072 bytes
+#4: CLOCK_MONOTONIC 0.000045120 sec. write 131072 bytes
+#5: CLOCK_MONOTONIC 0.000045875 sec. write 131072 bytes
+#6: CLOCK_MONOTONIC 0.000045397 sec. write 131072 bytes
+#7: CLOCK_MONOTONIC 0.000044545 sec. write 131072 bytes
+#8: CLOCK_MONOTONIC 0.000044041 sec. write 131072 bytes
+#9: CLOCK_MONOTONIC 0.000044365 sec. write 131072 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 603503 nsec, avg_time = 60350.300781, size = 131072, BW = 2171.853271 
+/dev/xdma0_h2c_0 ** Average BW = 131072, 2171.853271
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x40000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x40000, offset 0x0, count 10
+host buffer 0x41000 = 0x7fa01eb62000
+#0: CLOCK_MONOTONIC 0.000253422 sec. write 262144 bytes
+#1: CLOCK_MONOTONIC 0.000063847 sec. write 262144 bytes
+#2: CLOCK_MONOTONIC 0.000062248 sec. write 262144 bytes
+#3: CLOCK_MONOTONIC 0.000062890 sec. write 262144 bytes
+#4: CLOCK_MONOTONIC 0.000062243 sec. write 262144 bytes
+#5: CLOCK_MONOTONIC 0.000062602 sec. write 262144 bytes
+#6: CLOCK_MONOTONIC 0.000061514 sec. write 262144 bytes
+#7: CLOCK_MONOTONIC 0.000061218 sec. write 262144 bytes
+#8: CLOCK_MONOTONIC 0.000061550 sec. write 262144 bytes
+#9: CLOCK_MONOTONIC 0.000061250 sec. write 262144 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 812784 nsec, avg_time = 81278.398438, size = 262144, BW = 3225.260498 
+/dev/xdma0_h2c_0 ** Average BW = 262144, 3225.260498
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x80000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x80000, offset 0x0, count 10
+host buffer 0x81000 = 0x7f6e5a1a2000
+#0: CLOCK_MONOTONIC 0.000500851 sec. write 524288 bytes
+#1: CLOCK_MONOTONIC 0.000118973 sec. write 524288 bytes
+#2: CLOCK_MONOTONIC 0.000117596 sec. write 524288 bytes
+#3: CLOCK_MONOTONIC 0.000117052 sec. write 524288 bytes
+#4: CLOCK_MONOTONIC 0.000119277 sec. write 524288 bytes
+#5: CLOCK_MONOTONIC 0.000135423 sec. write 524288 bytes
+#6: CLOCK_MONOTONIC 0.000117998 sec. write 524288 bytes
+#7: CLOCK_MONOTONIC 0.000117513 sec. write 524288 bytes
+#8: CLOCK_MONOTONIC 0.000117386 sec. write 524288 bytes
+#9: CLOCK_MONOTONIC 0.000117898 sec. write 524288 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 1579967 nsec, avg_time = 157996.703125, size = 524288, BW = 3318.347656 
+/dev/xdma0_h2c_0 ** Average BW = 524288, 3318.347656
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x100000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x100000, offset 0x0, count 10
+host buffer 0x101000 = 0x7f22915af000
+#0: CLOCK_MONOTONIC 0.000939778 sec. write 1048576 bytes
+#1: CLOCK_MONOTONIC 0.000222398 sec. write 1048576 bytes
+#2: CLOCK_MONOTONIC 0.000220885 sec. write 1048576 bytes
+#3: CLOCK_MONOTONIC 0.000219488 sec. write 1048576 bytes
+#4: CLOCK_MONOTONIC 0.000217387 sec. write 1048576 bytes
+#5: CLOCK_MONOTONIC 0.000236045 sec. write 1048576 bytes
+#6: CLOCK_MONOTONIC 0.000219175 sec. write 1048576 bytes
+#7: CLOCK_MONOTONIC 0.000217865 sec. write 1048576 bytes
+#8: CLOCK_MONOTONIC 0.000217270 sec. write 1048576 bytes
+#9: CLOCK_MONOTONIC 0.000216703 sec. write 1048576 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 2926994 nsec, avg_time = 292699.406250, size = 1048576, BW = 3582.432861 
+/dev/xdma0_h2c_0 ** Average BW = 1048576, 3582.432861
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x200000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x200000, offset 0x0, count 10
+host buffer 0x201000 = 0x7f202c6d3000
+#0: CLOCK_MONOTONIC 0.001798854 sec. write 2097152 bytes
+#1: CLOCK_MONOTONIC 0.000528375 sec. write 2097152 bytes
+#2: CLOCK_MONOTONIC 0.000503316 sec. write 2097152 bytes
+#3: CLOCK_MONOTONIC 0.000446350 sec. write 2097152 bytes
+#4: CLOCK_MONOTONIC 0.000503534 sec. write 2097152 bytes
+#5: CLOCK_MONOTONIC 0.000524920 sec. write 2097152 bytes
+#6: CLOCK_MONOTONIC 0.000502447 sec. write 2097152 bytes
+#7: CLOCK_MONOTONIC 0.000507128 sec. write 2097152 bytes
+#8: CLOCK_MONOTONIC 0.000503550 sec. write 2097152 bytes
+#9: CLOCK_MONOTONIC 0.000523223 sec. write 2097152 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 6341697 nsec, avg_time = 634169.687500, size = 2097152, BW = 3306.925537 
+/dev/xdma0_h2c_0 ** Average BW = 2097152, 3306.925537
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x400000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x400000, offset 0x0, count 10
+host buffer 0x401000 = 0x7fb3a016d000
+#0: CLOCK_MONOTONIC 0.003455334 sec. write 4194304 bytes
+#1: CLOCK_MONOTONIC 0.000921357 sec. write 4194304 bytes
+#2: CLOCK_MONOTONIC 0.000905235 sec. write 4194304 bytes
+#3: CLOCK_MONOTONIC 0.000929027 sec. write 4194304 bytes
+#4: CLOCK_MONOTONIC 0.000907831 sec. write 4194304 bytes
+#5: CLOCK_MONOTONIC 0.000943363 sec. write 4194304 bytes
+#6: CLOCK_MONOTONIC 0.000909484 sec. write 4194304 bytes
+#7: CLOCK_MONOTONIC 0.000932472 sec. write 4194304 bytes
+#8: CLOCK_MONOTONIC 0.000895734 sec. write 4194304 bytes
+#9: CLOCK_MONOTONIC 0.000939283 sec. write 4194304 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 11739120 nsec, avg_time = 1173912.000000, size = 4194304, BW = 3572.928711 
+/dev/xdma0_h2c_0 ** Average BW = 4194304, 3572.928711
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x800000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x800000, offset 0x0, count 10
+host buffer 0x801000 = 0x7f5150f0f000
+#0: CLOCK_MONOTONIC 0.006184589 sec. write 8388608 bytes
+#1: CLOCK_MONOTONIC 0.001696784 sec. write 8388608 bytes
+#2: CLOCK_MONOTONIC 0.001582368 sec. write 8388608 bytes
+#3: CLOCK_MONOTONIC 0.001561477 sec. write 8388608 bytes
+#4: CLOCK_MONOTONIC 0.001716225 sec. write 8388608 bytes
+#5: CLOCK_MONOTONIC 0.001635519 sec. write 8388608 bytes
+#6: CLOCK_MONOTONIC 0.001615678 sec. write 8388608 bytes
+#7: CLOCK_MONOTONIC 0.001710373 sec. write 8388608 bytes
+#8: CLOCK_MONOTONIC 0.001646331 sec. write 8388608 bytes
+#9: CLOCK_MONOTONIC 0.001637134 sec. write 8388608 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 20986478 nsec, avg_time = 2098647.750000, size = 8388608, BW = 3997.149170 
+/dev/xdma0_h2c_0 ** Average BW = 8388608, 3997.149170
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x1000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x1000000, offset 0x0, count 10
+host buffer 0x1001000 = 0x7fbffe98e000
+#0: CLOCK_MONOTONIC 0.013858694 sec. write 16777216 bytes
+#1: CLOCK_MONOTONIC 0.003239966 sec. write 16777216 bytes
+#2: CLOCK_MONOTONIC 0.003023277 sec. write 16777216 bytes
+#3: CLOCK_MONOTONIC 0.003062491 sec. write 16777216 bytes
+#4: CLOCK_MONOTONIC 0.003063598 sec. write 16777216 bytes
+#5: CLOCK_MONOTONIC 0.003138231 sec. write 16777216 bytes
+#6: CLOCK_MONOTONIC 0.003188674 sec. write 16777216 bytes
+#7: CLOCK_MONOTONIC 0.003209273 sec. write 16777216 bytes
+#8: CLOCK_MONOTONIC 0.004142101 sec. write 16777216 bytes
+#9: CLOCK_MONOTONIC 0.005569868 sec. write 16777216 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 45496173 nsec, avg_time = 4549617.000000, size = 16777216, BW = 3687.610596 
+/dev/xdma0_h2c_0 ** Average BW = 16777216, 3687.610596
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x2000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x2000000, offset 0x0, count 10
+host buffer 0x2001000 = 0x7f1be6493000
+#0: CLOCK_MONOTONIC 0.025778758 sec. write 33554432 bytes
+#1: CLOCK_MONOTONIC 0.006155205 sec. write 33554432 bytes
+#2: CLOCK_MONOTONIC 0.008825244 sec. write 33554432 bytes
+#3: CLOCK_MONOTONIC 0.007511007 sec. write 33554432 bytes
+#4: CLOCK_MONOTONIC 0.006439671 sec. write 33554432 bytes
+#5: CLOCK_MONOTONIC 0.009344019 sec. write 33554432 bytes
+#6: CLOCK_MONOTONIC 0.008642022 sec. write 33554432 bytes
+#7: CLOCK_MONOTONIC 0.006313582 sec. write 33554432 bytes
+#8: CLOCK_MONOTONIC 0.009819558 sec. write 33554432 bytes
+#9: CLOCK_MONOTONIC 0.009226213 sec. write 33554432 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 98055279 nsec, avg_time = 9805528.000000, size = 33554432, BW = 3421.991455 
+/dev/xdma0_h2c_0 ** Average BW = 33554432, 3421.991455
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x4000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x4000000, offset 0x0, count 10
+host buffer 0x4001000 = 0x7fd4e49d8000
+#0: CLOCK_MONOTONIC 0.049030505 sec. write 67108864 bytes
+#1: CLOCK_MONOTONIC 0.014740682 sec. write 67108864 bytes
+#2: CLOCK_MONOTONIC 0.016883049 sec. write 67108864 bytes
+#3: CLOCK_MONOTONIC 0.013553307 sec. write 67108864 bytes
+#4: CLOCK_MONOTONIC 0.018598185 sec. write 67108864 bytes
+#5: CLOCK_MONOTONIC 0.013626724 sec. write 67108864 bytes
+#6: CLOCK_MONOTONIC 0.018437464 sec. write 67108864 bytes
+#7: CLOCK_MONOTONIC 0.013554758 sec. write 67108864 bytes
+#8: CLOCK_MONOTONIC 0.017654493 sec. write 67108864 bytes
+#9: CLOCK_MONOTONIC 0.013627489 sec. write 67108864 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 189706656 nsec, avg_time = 18970666.000000, size = 67108864, BW = 3537.507080 
+/dev/xdma0_h2c_0 ** Average BW = 67108864, 3537.507080
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x8000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x8000000, offset 0x0, count 10
+host buffer 0x8001000 = 0x7f46f7f77000
+#0: CLOCK_MONOTONIC 0.094660935 sec. write 134217728 bytes
+#1: CLOCK_MONOTONIC 0.026958966 sec. write 134217728 bytes
+#2: CLOCK_MONOTONIC 0.030752517 sec. write 134217728 bytes
+#3: CLOCK_MONOTONIC 0.030703439 sec. write 134217728 bytes
+#4: CLOCK_MONOTONIC 0.030374986 sec. write 134217728 bytes
+#5: CLOCK_MONOTONIC 0.032017716 sec. write 134217728 bytes
+#6: CLOCK_MONOTONIC 0.029828398 sec. write 134217728 bytes
+#7: CLOCK_MONOTONIC 0.029453532 sec. write 134217728 bytes
+#8: CLOCK_MONOTONIC 0.031863267 sec. write 134217728 bytes
+#9: CLOCK_MONOTONIC 0.029399209 sec. write 134217728 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 366012965 nsec, avg_time = 36601296.000000, size = 134217728, BW = 3667.021240 
+/dev/xdma0_h2c_0 ** Average BW = 134217728, 3667.021240
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x10000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x10000000, offset 0x0, count 10
+host buffer 0x10001000 = 0x7f8bea5dc000
+#0: CLOCK_MONOTONIC 0.171952448 sec. write 268435456 bytes
+#1: CLOCK_MONOTONIC 0.057379676 sec. write 268435456 bytes
+#2: CLOCK_MONOTONIC 0.058184226 sec. write 268435456 bytes
+#3: CLOCK_MONOTONIC 0.059025390 sec. write 268435456 bytes
+#4: CLOCK_MONOTONIC 0.056851301 sec. write 268435456 bytes
+#5: CLOCK_MONOTONIC 0.058449224 sec. write 268435456 bytes
+#6: CLOCK_MONOTONIC 0.056052341 sec. write 268435456 bytes
+#7: CLOCK_MONOTONIC 0.057793470 sec. write 268435456 bytes
+#8: CLOCK_MONOTONIC 0.057461058 sec. write 268435456 bytes
+#9: CLOCK_MONOTONIC 0.057477188 sec. write 268435456 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 690626322 nsec, avg_time = 69062632.000000, size = 268435456, BW = 3886.840820 
+/dev/xdma0_h2c_0 ** Average BW = 268435456, 3886.840820
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x40000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x40000000, offset 0x0, count 10
+host buffer 0x40001000 = 0x7f0b29ea5000
+#0: CLOCK_MONOTONIC 0.560517319 sec. write 1073741824 bytes
+#1: CLOCK_MONOTONIC 0.213708867 sec. write 1073741824 bytes
+#2: CLOCK_MONOTONIC 0.206328191 sec. write 1073741824 bytes
+#3: CLOCK_MONOTONIC 0.210534990 sec. write 1073741824 bytes
+#4: CLOCK_MONOTONIC 0.211910059 sec. write 1073741824 bytes
+#5: CLOCK_MONOTONIC 0.212015340 sec. write 1073741824 bytes
+#6: CLOCK_MONOTONIC 0.210821077 sec. write 1073741824 bytes
+#7: CLOCK_MONOTONIC 0.209557121 sec. write 1073741824 bytes
+#8: CLOCK_MONOTONIC 0.216162034 sec. write 1073741824 bytes
+#9: CLOCK_MONOTONIC 0.217593642 sec. write 1073741824 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 2469148640 nsec, avg_time = 246914864.000000, size = 1073741824, BW = 4348.631836 
+/dev/xdma0_h2c_0 ** Average BW = 1073741824, 4348.631836
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x80000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x80000000, offset 0x0, count 10
+host buffer 0x80001000 = 0x7f325fd55000
+#0: CLOCK_MONOTONIC 1.078549070 sec. write 2147483648 bytes
+#1: CLOCK_MONOTONIC 0.408129930 sec. write 2147483648 bytes
+#2: CLOCK_MONOTONIC 0.420540249 sec. write 2147483648 bytes
+#3: CLOCK_MONOTONIC 0.417730389 sec. write 2147483648 bytes
+#4: CLOCK_MONOTONIC 0.419443974 sec. write 2147483648 bytes
+#5: CLOCK_MONOTONIC 0.417892119 sec. write 2147483648 bytes
+#6: CLOCK_MONOTONIC 0.415739611 sec. write 2147483648 bytes
+#7: CLOCK_MONOTONIC 0.424154856 sec. write 2147483648 bytes
+#8: CLOCK_MONOTONIC 0.422887953 sec. write 2147483648 bytes
+#9: CLOCK_MONOTONIC 0.420731887 sec. write 2147483648 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 3845800038 nsec, avg_time = 384580000.000000, size = 2147483648, BW = 5583.971191 
+/dev/xdma0_h2c_0 ** Average BW = 2147483648, 5583.971191
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0xc0000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0xc0000000, offset 0x0, count 10
+host buffer 0xc0001000 = 0x7fdb6f77c000
+#0: CLOCK_MONOTONIC 1.614615491 sec. write 3221225472 bytes
+#1: CLOCK_MONOTONIC 0.614211247 sec. write 3221225472 bytes
+#2: CLOCK_MONOTONIC 0.625370735 sec. write 3221225472 bytes
+#3: CLOCK_MONOTONIC 0.631224356 sec. write 3221225472 bytes
+#4: CLOCK_MONOTONIC 0.621599500 sec. write 3221225472 bytes
+#5: CLOCK_MONOTONIC 0.635831124 sec. write 3221225472 bytes
+#6: CLOCK_MONOTONIC 0.625656317 sec. write 3221225472 bytes
+#7: CLOCK_MONOTONIC 0.638562803 sec. write 3221225472 bytes
+#8: CLOCK_MONOTONIC 0.628769854 sec. write 3221225472 bytes
+#9: CLOCK_MONOTONIC 0.627672538 sec. write 3221225472 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 6263513965 nsec, avg_time = 626351424.000000, size = 3221225472, BW = 5142.840332 
+/dev/xdma0_h2c_0 ** Average BW = 3221225472, 5142.840332
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_to_device -v -s 0x100000000 -c 10
+dev /dev/xdma0_h2c_0, addr 0x0, aperture 0x0, size 0x100000000, offset 0x0, count 10
+host buffer 0x100001000 = 0x7f247e364000
+#0: CLOCK_MONOTONIC 2.090566719 sec. write 4294967296 bytes
+#1: CLOCK_MONOTONIC 0.820479220 sec. write 4294967296 bytes
+#2: CLOCK_MONOTONIC 0.836745335 sec. write 4294967296 bytes
+#3: CLOCK_MONOTONIC 0.836818306 sec. write 4294967296 bytes
+#4: CLOCK_MONOTONIC 0.845485324 sec. write 4294967296 bytes
+#5: CLOCK_MONOTONIC 0.837829665 sec. write 4294967296 bytes
+#6: CLOCK_MONOTONIC 0.830355708 sec. write 4294967296 bytes
+#7: CLOCK_MONOTONIC 0.834541183 sec. write 4294967296 bytes
+#8: CLOCK_MONOTONIC 0.833328007 sec. write 4294967296 bytes
+#9: CLOCK_MONOTONIC 0.839933125 sec. write 4294967296 bytes
+** Avg time device /dev/xdma0_h2c_0, total time 7606082592 nsec, avg_time = 760608256.000000, size = 4294967296, BW = 5646.753418 
+/dev/xdma0_h2c_0 ** Average BW = 4294967296, 5646.753418
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x400 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x400, offset 0x0, count 10
+host buffer 0x1400, 0x55ed5a627000.
+#0: CLOCK_MONOTONIC 0.000084898 sec. read 1024/1024 bytes
+#1: CLOCK_MONOTONIC 0.000022326 sec. read 1024/1024 bytes
+#2: CLOCK_MONOTONIC 0.000020592 sec. read 1024/1024 bytes
+#3: CLOCK_MONOTONIC 0.000019990 sec. read 1024/1024 bytes
+#4: CLOCK_MONOTONIC 0.000020315 sec. read 1024/1024 bytes
+#5: CLOCK_MONOTONIC 0.000019837 sec. read 1024/1024 bytes
+#6: CLOCK_MONOTONIC 0.000019794 sec. read 1024/1024 bytes
+#7: CLOCK_MONOTONIC 0.000019206 sec. read 1024/1024 bytes
+#8: CLOCK_MONOTONIC 0.000019223 sec. read 1024/1024 bytes
+#9: CLOCK_MONOTONIC 0.000018915 sec. read 1024/1024 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 265096 nsec, avg_time = 26509.599609, size = 1024, BW = 38.627518 
+/dev/xdma0_c2h_0 ** Average BW = 1024, 38.627518
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x800 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x800, offset 0x0, count 10
+host buffer 0x1800, 0x55cf8b5bb000.
+#0: CLOCK_MONOTONIC 0.000097325 sec. read 2048/2048 bytes
+#1: CLOCK_MONOTONIC 0.000023088 sec. read 2048/2048 bytes
+#2: CLOCK_MONOTONIC 0.000021217 sec. read 2048/2048 bytes
+#3: CLOCK_MONOTONIC 0.000020919 sec. read 2048/2048 bytes
+#4: CLOCK_MONOTONIC 0.000021327 sec. read 2048/2048 bytes
+#5: CLOCK_MONOTONIC 0.000020980 sec. read 2048/2048 bytes
+#6: CLOCK_MONOTONIC 0.000020753 sec. read 2048/2048 bytes
+#7: CLOCK_MONOTONIC 0.000019346 sec. read 2048/2048 bytes
+#8: CLOCK_MONOTONIC 0.000019276 sec. read 2048/2048 bytes
+#9: CLOCK_MONOTONIC 0.000019226 sec. read 2048/2048 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 283457 nsec, avg_time = 28345.699219, size = 2048, BW = 72.250816 
+/dev/xdma0_c2h_0 ** Average BW = 2048, 72.250816
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x1000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x1000, offset 0x0, count 10
+host buffer 0x2000, 0x560fb826d000.
+#0: CLOCK_MONOTONIC 0.000053932 sec. read 4096/4096 bytes
+#1: CLOCK_MONOTONIC 0.000043520 sec. read 4096/4096 bytes
+#2: CLOCK_MONOTONIC 0.000031099 sec. read 4096/4096 bytes
+#3: CLOCK_MONOTONIC 0.000022142 sec. read 4096/4096 bytes
+#4: CLOCK_MONOTONIC 0.000029395 sec. read 4096/4096 bytes
+#5: CLOCK_MONOTONIC 0.000025092 sec. read 4096/4096 bytes
+#6: CLOCK_MONOTONIC 0.000021144 sec. read 4096/4096 bytes
+#7: CLOCK_MONOTONIC 0.000020829 sec. read 4096/4096 bytes
+#8: CLOCK_MONOTONIC 0.000021631 sec. read 4096/4096 bytes
+#9: CLOCK_MONOTONIC 0.000036404 sec. read 4096/4096 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 305188 nsec, avg_time = 30518.800781, size = 4096, BW = 134.212357 
+/dev/xdma0_c2h_0 ** Average BW = 4096, 134.212357
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x2000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x2000, offset 0x0, count 10
+host buffer 0x3000, 0x55d0a1398000.
+#0: CLOCK_MONOTONIC 0.000066361 sec. read 8192/8192 bytes
+#1: CLOCK_MONOTONIC 0.000038886 sec. read 8192/8192 bytes
+#2: CLOCK_MONOTONIC 0.000024734 sec. read 8192/8192 bytes
+#3: CLOCK_MONOTONIC 0.000024464 sec. read 8192/8192 bytes
+#4: CLOCK_MONOTONIC 0.000023028 sec. read 8192/8192 bytes
+#5: CLOCK_MONOTONIC 0.000022985 sec. read 8192/8192 bytes
+#6: CLOCK_MONOTONIC 0.000021410 sec. read 8192/8192 bytes
+#7: CLOCK_MONOTONIC 0.000021531 sec. read 8192/8192 bytes
+#8: CLOCK_MONOTONIC 0.000023135 sec. read 8192/8192 bytes
+#9: CLOCK_MONOTONIC 0.000022590 sec. read 8192/8192 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 289124 nsec, avg_time = 28912.400391, size = 8192, BW = 283.338623 
+/dev/xdma0_c2h_0 ** Average BW = 8192, 283.338623
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x4000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x4000, offset 0x0, count 10
+host buffer 0x5000, 0x5590fdb0b000.
+#0: CLOCK_MONOTONIC 0.000110704 sec. read 16384/16384 bytes
+#1: CLOCK_MONOTONIC 0.000035021 sec. read 16384/16384 bytes
+#2: CLOCK_MONOTONIC 0.000039350 sec. read 16384/16384 bytes
+#3: CLOCK_MONOTONIC 0.000030177 sec. read 16384/16384 bytes
+#4: CLOCK_MONOTONIC 0.000025483 sec. read 16384/16384 bytes
+#5: CLOCK_MONOTONIC 0.000024054 sec. read 16384/16384 bytes
+#6: CLOCK_MONOTONIC 0.000029536 sec. read 16384/16384 bytes
+#7: CLOCK_MONOTONIC 0.000022447 sec. read 16384/16384 bytes
+#8: CLOCK_MONOTONIC 0.000026047 sec. read 16384/16384 bytes
+#9: CLOCK_MONOTONIC 0.000024471 sec. read 16384/16384 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 367290 nsec, avg_time = 36729.000000, size = 16384, BW = 446.078033 
+/dev/xdma0_c2h_0 ** Average BW = 16384, 446.078033
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x8000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x8000, offset 0x0, count 10
+host buffer 0x9000, 0x5594b9030000.
+#0: CLOCK_MONOTONIC 0.000066200 sec. read 32768/32768 bytes
+#1: CLOCK_MONOTONIC 0.000036197 sec. read 32768/32768 bytes
+#2: CLOCK_MONOTONIC 0.000029536 sec. read 32768/32768 bytes
+#3: CLOCK_MONOTONIC 0.000030908 sec. read 32768/32768 bytes
+#4: CLOCK_MONOTONIC 0.000032078 sec. read 32768/32768 bytes
+#5: CLOCK_MONOTONIC 0.000054336 sec. read 32768/32768 bytes
+#6: CLOCK_MONOTONIC 0.000029613 sec. read 32768/32768 bytes
+#7: CLOCK_MONOTONIC 0.000030164 sec. read 32768/32768 bytes
+#8: CLOCK_MONOTONIC 0.000039862 sec. read 32768/32768 bytes
+#9: CLOCK_MONOTONIC 0.000027875 sec. read 32768/32768 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 376769 nsec, avg_time = 37676.898438, size = 32768, BW = 869.710632 
+/dev/xdma0_c2h_0 ** Average BW = 32768, 869.710632
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x10000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x10000, offset 0x0, count 10
+host buffer 0x11000, 0x5568f55fd000.
+#0: CLOCK_MONOTONIC 0.000094081 sec. read 65536/65536 bytes
+#1: CLOCK_MONOTONIC 0.000037396 sec. read 65536/65536 bytes
+#2: CLOCK_MONOTONIC 0.000051731 sec. read 65536/65536 bytes
+#3: CLOCK_MONOTONIC 0.000036350 sec. read 65536/65536 bytes
+#4: CLOCK_MONOTONIC 0.000033514 sec. read 65536/65536 bytes
+#5: CLOCK_MONOTONIC 0.000033531 sec. read 65536/65536 bytes
+#6: CLOCK_MONOTONIC 0.000033203 sec. read 65536/65536 bytes
+#7: CLOCK_MONOTONIC 0.000034276 sec. read 65536/65536 bytes
+#8: CLOCK_MONOTONIC 0.000033929 sec. read 65536/65536 bytes
+#9: CLOCK_MONOTONIC 0.000032966 sec. read 65536/65536 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 420977 nsec, avg_time = 42097.699219, size = 65536, BW = 1556.759644 
+/dev/xdma0_c2h_0 ** Average BW = 65536, 1556.759644
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x20000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x20000, offset 0x0, count 10
+host buffer 0x21000, 0x7ff1dc4ac000.
+#0: CLOCK_MONOTONIC 0.000151178 sec. read 131072/131072 bytes
+#1: CLOCK_MONOTONIC 0.000051227 sec. read 131072/131072 bytes
+#2: CLOCK_MONOTONIC 0.000048347 sec. read 131072/131072 bytes
+#3: CLOCK_MONOTONIC 0.000046653 sec. read 131072/131072 bytes
+#4: CLOCK_MONOTONIC 0.000046997 sec. read 131072/131072 bytes
+#5: CLOCK_MONOTONIC 0.000045347 sec. read 131072/131072 bytes
+#6: CLOCK_MONOTONIC 0.000046011 sec. read 131072/131072 bytes
+#7: CLOCK_MONOTONIC 0.000046697 sec. read 131072/131072 bytes
+#8: CLOCK_MONOTONIC 0.000046025 sec. read 131072/131072 bytes
+#9: CLOCK_MONOTONIC 0.000045718 sec. read 131072/131072 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 574200 nsec, avg_time = 57420.000000, size = 131072, BW = 2282.688965 
+/dev/xdma0_c2h_0 ** Average BW = 131072, 2282.688965
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x40000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x40000, offset 0x0, count 10
+host buffer 0x41000, 0x7f0294b0b000.
+#0: CLOCK_MONOTONIC 0.000306718 sec. read 262144/262144 bytes
+#1: CLOCK_MONOTONIC 0.000084434 sec. read 262144/262144 bytes
+#2: CLOCK_MONOTONIC 0.000075817 sec. read 262144/262144 bytes
+#3: CLOCK_MONOTONIC 0.000074328 sec. read 262144/262144 bytes
+#4: CLOCK_MONOTONIC 0.000073904 sec. read 262144/262144 bytes
+#5: CLOCK_MONOTONIC 0.000073402 sec. read 262144/262144 bytes
+#6: CLOCK_MONOTONIC 0.000074210 sec. read 262144/262144 bytes
+#7: CLOCK_MONOTONIC 0.000072514 sec. read 262144/262144 bytes
+#8: CLOCK_MONOTONIC 0.000071952 sec. read 262144/262144 bytes
+#9: CLOCK_MONOTONIC 0.000071829 sec. read 262144/262144 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 979108 nsec, avg_time = 97910.796875, size = 262144, BW = 2677.375732 
+/dev/xdma0_c2h_0 ** Average BW = 262144, 2677.375732
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x80000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x80000, offset 0x0, count 10
+host buffer 0x81000, 0x7fd4860d6000.
+#0: CLOCK_MONOTONIC 0.000556079 sec. read 524288/524288 bytes
+#1: CLOCK_MONOTONIC 0.000133950 sec. read 524288/524288 bytes
+#2: CLOCK_MONOTONIC 0.000126817 sec. read 524288/524288 bytes
+#3: CLOCK_MONOTONIC 0.000125183 sec. read 524288/524288 bytes
+#4: CLOCK_MONOTONIC 0.000125344 sec. read 524288/524288 bytes
+#5: CLOCK_MONOTONIC 0.000141546 sec. read 524288/524288 bytes
+#6: CLOCK_MONOTONIC 0.000124418 sec. read 524288/524288 bytes
+#7: CLOCK_MONOTONIC 0.000125013 sec. read 524288/524288 bytes
+#8: CLOCK_MONOTONIC 0.000124599 sec. read 524288/524288 bytes
+#9: CLOCK_MONOTONIC 0.000124078 sec. read 524288/524288 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 1707027 nsec, avg_time = 170702.703125, size = 524288, BW = 3071.351562 
+/dev/xdma0_c2h_0 ** Average BW = 524288, 3071.351562
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x100000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x100000, offset 0x0, count 10
+host buffer 0x101000, 0x7f976570e000.
+#0: CLOCK_MONOTONIC 0.000929645 sec. read 1048576/1048576 bytes
+#1: CLOCK_MONOTONIC 0.000233717 sec. read 1048576/1048576 bytes
+#2: CLOCK_MONOTONIC 0.000230189 sec. read 1048576/1048576 bytes
+#3: CLOCK_MONOTONIC 0.000229721 sec. read 1048576/1048576 bytes
+#4: CLOCK_MONOTONIC 0.000240956 sec. read 1048576/1048576 bytes
+#5: CLOCK_MONOTONIC 0.000244961 sec. read 1048576/1048576 bytes
+#6: CLOCK_MONOTONIC 0.000229604 sec. read 1048576/1048576 bytes
+#7: CLOCK_MONOTONIC 0.000243361 sec. read 1048576/1048576 bytes
+#8: CLOCK_MONOTONIC 0.000231305 sec. read 1048576/1048576 bytes
+#9: CLOCK_MONOTONIC 0.000236249 sec. read 1048576/1048576 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 3049708 nsec, avg_time = 304970.812500, size = 1048576, BW = 3438.283203 
+/dev/xdma0_c2h_0 ** Average BW = 1048576, 3438.283203
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x200000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x200000, offset 0x0, count 10
+host buffer 0x201000, 0x7fa197ff0000.
+#0: CLOCK_MONOTONIC 0.001815658 sec. read 2097152/2097152 bytes
+#1: CLOCK_MONOTONIC 0.000528251 sec. read 2097152/2097152 bytes
+#2: CLOCK_MONOTONIC 0.000538894 sec. read 2097152/2097152 bytes
+#3: CLOCK_MONOTONIC 0.000524603 sec. read 2097152/2097152 bytes
+#4: CLOCK_MONOTONIC 0.000522148 sec. read 2097152/2097152 bytes
+#5: CLOCK_MONOTONIC 0.000548880 sec. read 2097152/2097152 bytes
+#6: CLOCK_MONOTONIC 0.000520280 sec. read 2097152/2097152 bytes
+#7: CLOCK_MONOTONIC 0.000518723 sec. read 2097152/2097152 bytes
+#8: CLOCK_MONOTONIC 0.000478625 sec. read 2097152/2097152 bytes
+#9: CLOCK_MONOTONIC 0.000471309 sec. read 2097152/2097152 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 6467371 nsec, avg_time = 646737.125000, size = 2097152, BW = 3242.665283 
+/dev/xdma0_c2h_0 ** Average BW = 2097152, 3242.665283
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x400000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x400000, offset 0x0, count 10
+host buffer 0x401000, 0x7f89a85d9000.
+#0: CLOCK_MONOTONIC 0.003564611 sec. read 4194304/4194304 bytes
+#1: CLOCK_MONOTONIC 0.000998056 sec. read 4194304/4194304 bytes
+#2: CLOCK_MONOTONIC 0.000963463 sec. read 4194304/4194304 bytes
+#3: CLOCK_MONOTONIC 0.000923014 sec. read 4194304/4194304 bytes
+#4: CLOCK_MONOTONIC 0.000937028 sec. read 4194304/4194304 bytes
+#5: CLOCK_MONOTONIC 0.000935315 sec. read 4194304/4194304 bytes
+#6: CLOCK_MONOTONIC 0.000918565 sec. read 4194304/4194304 bytes
+#7: CLOCK_MONOTONIC 0.000982796 sec. read 4194304/4194304 bytes
+#8: CLOCK_MONOTONIC 0.000959170 sec. read 4194304/4194304 bytes
+#9: CLOCK_MONOTONIC 0.000976672 sec. read 4194304/4194304 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 12158690 nsec, avg_time = 1215869.000000, size = 4194304, BW = 3449.634766 
+/dev/xdma0_c2h_0 ** Average BW = 4194304, 3449.634766
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x800000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x800000, offset 0x0, count 10
+host buffer 0x801000, 0x7f0ce9788000.
+#0: CLOCK_MONOTONIC 0.007031453 sec. read 8388608/8388608 bytes
+#1: CLOCK_MONOTONIC 0.001835692 sec. read 8388608/8388608 bytes
+#2: CLOCK_MONOTONIC 0.001808258 sec. read 8388608/8388608 bytes
+#3: CLOCK_MONOTONIC 0.001837483 sec. read 8388608/8388608 bytes
+#4: CLOCK_MONOTONIC 0.001748269 sec. read 8388608/8388608 bytes
+#5: CLOCK_MONOTONIC 0.001722535 sec. read 8388608/8388608 bytes
+#6: CLOCK_MONOTONIC 0.001701613 sec. read 8388608/8388608 bytes
+#7: CLOCK_MONOTONIC 0.001697920 sec. read 8388608/8388608 bytes
+#8: CLOCK_MONOTONIC 0.001640465 sec. read 8388608/8388608 bytes
+#9: CLOCK_MONOTONIC 0.001570048 sec. read 8388608/8388608 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 22593736 nsec, avg_time = 2259373.500000, size = 8388608, BW = 3712.802734 
+/dev/xdma0_c2h_0 ** Average BW = 8388608, 3712.802734
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x1000000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x1000000, offset 0x0, count 10
+host buffer 0x1001000, 0x7fb2abc7e000.
+#0: CLOCK_MONOTONIC 0.013788240 sec. read 16777216/16777216 bytes
+#1: CLOCK_MONOTONIC 0.003533800 sec. read 16777216/16777216 bytes
+#2: CLOCK_MONOTONIC 0.003127736 sec. read 16777216/16777216 bytes
+#3: CLOCK_MONOTONIC 0.003126442 sec. read 16777216/16777216 bytes
+#4: CLOCK_MONOTONIC 0.003149198 sec. read 16777216/16777216 bytes
+#5: CLOCK_MONOTONIC 0.003290367 sec. read 16777216/16777216 bytes
+#6: CLOCK_MONOTONIC 0.003454400 sec. read 16777216/16777216 bytes
+#7: CLOCK_MONOTONIC 0.003867779 sec. read 16777216/16777216 bytes
+#8: CLOCK_MONOTONIC 0.004244752 sec. read 16777216/16777216 bytes
+#9: CLOCK_MONOTONIC 0.005404936 sec. read 16777216/16777216 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 46987650 nsec, avg_time = 4698765.000000, size = 16777216, BW = 3570.558594 
+/dev/xdma0_c2h_0 ** Average BW = 16777216, 3570.558594
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x2000000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x2000000, offset 0x0, count 10
+host buffer 0x2001000, 0x7fe69484a000.
+#0: CLOCK_MONOTONIC 0.026192445 sec. read 33554432/33554432 bytes
+#1: CLOCK_MONOTONIC 0.006626414 sec. read 33554432/33554432 bytes
+#2: CLOCK_MONOTONIC 0.007879712 sec. read 33554432/33554432 bytes
+#3: CLOCK_MONOTONIC 0.008319673 sec. read 33554432/33554432 bytes
+#4: CLOCK_MONOTONIC 0.007455282 sec. read 33554432/33554432 bytes
+#5: CLOCK_MONOTONIC 0.006844921 sec. read 33554432/33554432 bytes
+#6: CLOCK_MONOTONIC 0.008726309 sec. read 33554432/33554432 bytes
+#7: CLOCK_MONOTONIC 0.009375289 sec. read 33554432/33554432 bytes
+#8: CLOCK_MONOTONIC 0.007029127 sec. read 33554432/33554432 bytes
+#9: CLOCK_MONOTONIC 0.007136829 sec. read 33554432/33554432 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 95586001 nsec, avg_time = 9558600.000000, size = 33554432, BW = 3510.391846 
+/dev/xdma0_c2h_0 ** Average BW = 33554432, 3510.391846
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x4000000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x4000000, offset 0x0, count 10
+host buffer 0x4001000, 0x7eff976a3000.
+#0: CLOCK_MONOTONIC 0.053449965 sec. read 67108864/67108864 bytes
+#1: CLOCK_MONOTONIC 0.013161208 sec. read 67108864/67108864 bytes
+#2: CLOCK_MONOTONIC 0.012762141 sec. read 67108864/67108864 bytes
+#3: CLOCK_MONOTONIC 0.015665632 sec. read 67108864/67108864 bytes
+#4: CLOCK_MONOTONIC 0.015230724 sec. read 67108864/67108864 bytes
+#5: CLOCK_MONOTONIC 0.016340507 sec. read 67108864/67108864 bytes
+#6: CLOCK_MONOTONIC 0.014457950 sec. read 67108864/67108864 bytes
+#7: CLOCK_MONOTONIC 0.017688718 sec. read 67108864/67108864 bytes
+#8: CLOCK_MONOTONIC 0.017409231 sec. read 67108864/67108864 bytes
+#9: CLOCK_MONOTONIC 0.015317216 sec. read 67108864/67108864 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 191483292 nsec, avg_time = 19148330.000000, size = 67108864, BW = 3504.685059 
+/dev/xdma0_c2h_0 ** Average BW = 67108864, 3504.685059
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x8000000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x8000000, offset 0x0, count 10
+host buffer 0x8001000, 0x7fc0be82a000.
+#0: CLOCK_MONOTONIC 0.099040683 sec. read 134217728/134217728 bytes
+#1: CLOCK_MONOTONIC 0.027969840 sec. read 134217728/134217728 bytes
+#2: CLOCK_MONOTONIC 0.031130531 sec. read 134217728/134217728 bytes
+#3: CLOCK_MONOTONIC 0.028445465 sec. read 134217728/134217728 bytes
+#4: CLOCK_MONOTONIC 0.029458556 sec. read 134217728/134217728 bytes
+#5: CLOCK_MONOTONIC 0.035112214 sec. read 134217728/134217728 bytes
+#6: CLOCK_MONOTONIC 0.029857308 sec. read 134217728/134217728 bytes
+#7: CLOCK_MONOTONIC 0.028535926 sec. read 134217728/134217728 bytes
+#8: CLOCK_MONOTONIC 0.029449035 sec. read 134217728/134217728 bytes
+#9: CLOCK_MONOTONIC 0.029564213 sec. read 134217728/134217728 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 368563771 nsec, avg_time = 36856376.000000, size = 134217728, BW = 3641.642090 
+/dev/xdma0_c2h_0 ** Average BW = 134217728, 3641.642090
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x10000000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x10000000, offset 0x0, count 10
+host buffer 0x10001000, 0x7fcfc1531000.
+#0: CLOCK_MONOTONIC 0.176643812 sec. read 268435456/268435456 bytes
+#1: CLOCK_MONOTONIC 0.057443751 sec. read 268435456/268435456 bytes
+#2: CLOCK_MONOTONIC 0.059361854 sec. read 268435456/268435456 bytes
+#3: CLOCK_MONOTONIC 0.060296019 sec. read 268435456/268435456 bytes
+#4: CLOCK_MONOTONIC 0.059218174 sec. read 268435456/268435456 bytes
+#5: CLOCK_MONOTONIC 0.060594897 sec. read 268435456/268435456 bytes
+#6: CLOCK_MONOTONIC 0.056204932 sec. read 268435456/268435456 bytes
+#7: CLOCK_MONOTONIC 0.059685847 sec. read 268435456/268435456 bytes
+#8: CLOCK_MONOTONIC 0.061642018 sec. read 268435456/268435456 bytes
+#9: CLOCK_MONOTONIC 0.058234818 sec. read 268435456/268435456 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 709326122 nsec, avg_time = 70932616.000000, size = 268435456, BW = 3784.372803 
+/dev/xdma0_c2h_0 ** Average BW = 268435456, 3784.372803
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x40000000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x40000000, offset 0x0, count 10
+host buffer 0x40001000, 0x7f4b94e1d000.
+#0: CLOCK_MONOTONIC 0.564665072 sec. read 1073741824/1073741824 bytes
+#1: CLOCK_MONOTONIC 0.209915561 sec. read 1073741824/1073741824 bytes
+#2: CLOCK_MONOTONIC 0.206549262 sec. read 1073741824/1073741824 bytes
+#3: CLOCK_MONOTONIC 0.209181080 sec. read 1073741824/1073741824 bytes
+#4: CLOCK_MONOTONIC 0.216160721 sec. read 1073741824/1073741824 bytes
+#5: CLOCK_MONOTONIC 0.216626891 sec. read 1073741824/1073741824 bytes
+#6: CLOCK_MONOTONIC 0.214783866 sec. read 1073741824/1073741824 bytes
+#7: CLOCK_MONOTONIC 0.213103669 sec. read 1073741824/1073741824 bytes
+#8: CLOCK_MONOTONIC 0.213037403 sec. read 1073741824/1073741824 bytes
+#9: CLOCK_MONOTONIC 0.212444878 sec. read 1073741824/1073741824 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 2476468403 nsec, avg_time = 247646848.000000, size = 1073741824, BW = 4335.778320 
+/dev/xdma0_c2h_0 ** Average BW = 1073741824, 4335.778320
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x80000000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x80000000, offset 0x0, count 10
+host buffer 0x80001000, 0x7fe961ab8000.
+#0: CLOCK_MONOTONIC 1.094194122 sec. read 2147483648/2147483648 bytes
+#1: CLOCK_MONOTONIC 0.415919096 sec. read 2147483648/2147483648 bytes
+#2: CLOCK_MONOTONIC 0.412400663 sec. read 2147483648/2147483648 bytes
+#3: CLOCK_MONOTONIC 0.421505819 sec. read 2147483648/2147483648 bytes
+#4: CLOCK_MONOTONIC 0.431353186 sec. read 2147483648/2147483648 bytes
+#5: CLOCK_MONOTONIC 0.424028784 sec. read 2147483648/2147483648 bytes
+#6: CLOCK_MONOTONIC 0.432912020 sec. read 2147483648/2147483648 bytes
+#7: CLOCK_MONOTONIC 0.427085659 sec. read 2147483648/2147483648 bytes
+#8: CLOCK_MONOTONIC 0.426569782 sec. read 2147483648/2147483648 bytes
+#9: CLOCK_MONOTONIC 0.425660709 sec. read 2147483648/2147483648 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 3911629840 nsec, avg_time = 391162976.000000, size = 2147483648, BW = 5489.997070 
+/dev/xdma0_c2h_0 ** Average BW = 2147483648, 5489.997070
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0xc0000000 -c 10
+dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0xc0000000, offset 0x0, count 10
+host buffer 0xc0001000, 0x7f00e98ee000.
+#0: CLOCK_MONOTONIC 1.612856244 sec. read 3221225472/3221225472 bytes
+#1: CLOCK_MONOTONIC 0.612200299 sec. read 3221225472/3221225472 bytes
+#2: CLOCK_MONOTONIC 0.626811356 sec. read 3221225472/3221225472 bytes
+#3: CLOCK_MONOTONIC 0.642549999 sec. read 3221225472/3221225472 bytes
+#4: CLOCK_MONOTONIC 0.641258568 sec. read 3221225472/3221225472 bytes
+#5: CLOCK_MONOTONIC 0.637854379 sec. read 3221225472/3221225472 bytes
+#6: CLOCK_MONOTONIC 0.643591335 sec. read 3221225472/3221225472 bytes
+#7: CLOCK_MONOTONIC 0.633933573 sec. read 3221225472/3221225472 bytes
+#8: CLOCK_MONOTONIC 0.639145960 sec. read 3221225472/3221225472 bytes
+#9: CLOCK_MONOTONIC 0.642404591 sec. read 3221225472/3221225472 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 6332606304 nsec, avg_time = 633260672.000000, size = 3221225472, BW = 5086.729004 
+/dev/xdma0_c2h_0 ** Average BW = 3221225472, 5086.729004
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ sudo ./dma_from_device -v -s 0x100000000 -c 10dev /dev/xdma0_c2h_0, addr 0x0, aperture 0x0, size 0x100000000, offset 0x0, count 10
+host buffer 0x100001000, 0x7f73c61c3000.
+#0: CLOCK_MONOTONIC 2.110969196 sec. read 4294967296/4294967296 bytes
+#1: CLOCK_MONOTONIC 0.818221751 sec. read 4294967296/4294967296 bytes
+#2: CLOCK_MONOTONIC 0.842173798 sec. read 4294967296/4294967296 bytes
+#3: CLOCK_MONOTONIC 0.851088808 sec. read 4294967296/4294967296 bytes
+#4: CLOCK_MONOTONIC 0.853296503 sec. read 4294967296/4294967296 bytes
+#5: CLOCK_MONOTONIC 0.847868165 sec. read 4294967296/4294967296 bytes
+#6: CLOCK_MONOTONIC 0.846674823 sec. read 4294967296/4294967296 bytes
+#7: CLOCK_MONOTONIC 0.852514691 sec. read 4294967296/4294967296 bytes
+#8: CLOCK_MONOTONIC 0.853404274 sec. read 4294967296/4294967296 bytes
+#9: CLOCK_MONOTONIC 0.853624383 sec. read 4294967296/4294967296 bytes
+** Avg time device /dev/xdma0_c2h_0, total time 7729836392 nsec, avg_time = 772983680.000000, size = 4294967296, BW = 5556.349121 
+/dev/xdma0_c2h_0 ** Average BW = 4294967296, 5556.349121
+sunzhx01@sunzhx01-P8000:~/database/source_dma_ip_drivers/dma_ip_drivers-master/XDMA/linux-kernel/tools$ 
+
